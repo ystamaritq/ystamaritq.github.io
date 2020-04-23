@@ -9,9 +9,7 @@ body {
 
 section {
 	display: flex;
-	margin-left: 200px;
-	margin-top: 80px;
-	max-width: fit-content;
+	max-width: 850px;
 }
 
 img {
