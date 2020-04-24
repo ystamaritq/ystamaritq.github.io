@@ -9,8 +9,7 @@ body {
 	background-image: url(../images/background.png);
 }
 .main-content {
-	/*  [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ] */
-	flex: 1 0 auto;
+	flex: 1 0 auto; /*  [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ] */
 }
 
 img {
