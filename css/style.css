@@ -17,11 +17,12 @@ img {
 	height: 300px;
 }
 
-.pos-abs-b-1 {
-	position: absolute;
-	bottom: 5px;
+.over-img-text {
+	position: relative;
+	bottom: 80px;
 	left: 0;
 	right: 0;
+	max-width: 300px;
 }
 
 footer {
