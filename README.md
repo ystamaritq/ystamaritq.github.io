@@ -23,12 +23,14 @@ Below is a summary of the key files for this project and their purpose:
 - **index.html** About me html page
 - **portfolio.html** Portfolio html page
 - **contact.html** Contact html page
-- **css/style.css** main site stylesheet
+- **css/style.css** main site
+- **css/reset.css** reset css stylesheet
 - **images** all images used by website
 
 Additional Libraries:
 
-- **bootstrap 4** This site uses bootstrap 4 css with Minty color profile
+- **bootstrap 4** This site uses bootstrap 4 css.
+- **minty library** Bootstrap theme for custom styles.
 
 ## Features
 
