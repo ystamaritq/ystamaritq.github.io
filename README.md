@@ -36,7 +36,9 @@ Additional Libraries:
 
 ## Features
 
-This site showcases a responsible website, with information about me, ioncluding my portfolio and contact form.
+This site showcases a responsible website, with information about me, including my portfolio and contact form.
+
+![index preview](assets/images/portfolio.png)
 
 ## Licensing
 
