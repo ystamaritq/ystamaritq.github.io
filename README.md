@@ -24,10 +24,10 @@ Below is a summary of the key files for this project and their purpose:
 - **portfolio.html** portfolio html page
 - **contact.html** contact html page
 - **assets** all images and css used by the website
-- **assets/css/style.css** custom css stylesheet
-- **assets/css/reset.css** reset css stylesheet
+- **/assets/css/style.css** custom css stylesheet
+- **/assets/css/reset.css** reset css stylesheet
 - **/assets/css/bootstrap.minty.min.css** minty library used by the website
-- **assets/images** all images used by the website
+- **/assets/images** all images used by the website
 
 Additional Libraries:
 
