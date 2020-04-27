@@ -20,12 +20,14 @@ No additional setup required.
 
 Below is a summary of the key files for this project and their purpose:
 
-- **index.html** About me html page
-- **portfolio.html** Portfolio html page
-- **contact.html** Contact html page
-- **css/style.css** main site
-- **css/reset.css** reset css stylesheet
-- **images** all images used by website
+- **index.html** about me html page
+- **portfolio.html** portfolio html page
+- **contact.html** contact html page
+- **assets** all images and css used by the website
+- **assets/css/style.css** custom css stylesheet
+- **assets/css/reset.css** reset css stylesheet
+- **/assets/css/bootstrap.minty.min.css** minty library used by the website
+- **assets/images** all images used by the website
 
 Additional Libraries:
 
