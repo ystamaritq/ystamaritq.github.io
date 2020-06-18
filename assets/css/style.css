@@ -1,15 +1,16 @@
 html,
 body {
-	height: 100%;
+	width: 100%;
+	font-family: "Amaranth", sans-serif;
 }
 
 body {
 	display: flex;
 	flex-direction: column;
-	background-image: url(../images/background.png);
 }
+
 .main-content {
-	flex: 1 0 auto; /*  [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ] */
+	flex: 1 0 auto;
 }
 
 img {
@@ -28,4 +29,46 @@ img {
 footer {
 	flex-shrink: 0;
 	margin-top: 100px;
+	background-color: #cdc6ae;
+	color: #432c23;
+	font-size: 17px;
+}
+
+.color-custom {
+	background-color: #bc4b51;
+}
+
+.color-custom-text {
+	color: #bc4b51;
+	font-size: 20px;
+}
+
+.nav-color {
+	background-color: #cdc6ae;
+}
+
+p {
+	font-size: 19px;
+	color: #432c23;
+	opacity: 85%;
+}
+
+.card-header {
+	background-color: transparent !important;
+}
+
+.icons-color {
+	color: #bc4b51;
+}
+
+dt > a:hover {
+	color: #cdc6ae;
+}
+
+li > a:hover {
+	color: #432c23;
+}
+
+.text-shadow {
+	text-shadow: 2px 2px 5px #cdc6ae;
 }
