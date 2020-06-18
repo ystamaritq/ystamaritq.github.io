@@ -39,6 +39,12 @@ This site showcases a responsible website, with information about me, including 
 
 ![index preview](assets/images/portfolio.png)
 
+## Links
+
+[Deployed link: Try it out!](https://ystamaritq.github.io/) </div>
+
+[GitHub link](https://github.com/ystamaritq/ystamaritq.github.io) </div>
+
 ## Licensing
 
 "The code in this project is licensed under MIT license."
