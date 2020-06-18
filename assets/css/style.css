@@ -72,3 +72,7 @@ li > a:hover {
 .text-shadow {
 	text-shadow: 2px 2px 5px #cdc6ae;
 }
+
+.port-text {
+	color: #cdc6ae;
+}
