@@ -13,11 +13,17 @@ body {
 	flex: 1 0 auto;
 }
 
+picture > img {
+	width: 300px;
+	height: 300px;
+}
+
 .over-img-text {
 	position: relative;
 	bottom: 80px;
 	left: 0;
 	right: 0;
+	/* max-width: 300px; */
 }
 
 footer {
