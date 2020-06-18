@@ -1,4 +1,4 @@
-# Responsible Portfolio
+# Yadira's Portfolio
 
 This project hosts the source code for my Portfolio website.
 
@@ -26,14 +26,12 @@ Below is a summary of the key files for this project and their purpose:
 - **assets** all images and css used by the website
 - **/assets/css/style.css** custom css stylesheet
 - **/assets/css/reset.css** reset css stylesheet
-- **/assets/css/bootstrap.minty.min.css** minty library used by the website
 - **/assets/images** all images used by the website
 - **/assets/css** all css used by the website
 
 Additional Libraries:
 
 - **bootstrap 4** This site uses bootstrap 4 css.
-- **minty library** Bootstrap theme for custom styles.
 
 ## Features
 
