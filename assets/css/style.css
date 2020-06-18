@@ -76,3 +76,7 @@ li > a:hover {
 .port-text {
 	color: #cdc6ae;
 }
+
+::placeholder {
+	color: #432c23 !important;
+}
