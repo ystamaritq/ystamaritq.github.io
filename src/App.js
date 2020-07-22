@@ -1,8 +1,8 @@
 import React from "react";
-import HelloDiv from "./components/HelloDiv";
+import NavBar from "./components/NavBar";
 
 function App() {
-  return <HelloDiv />;
+	return <NavBar />;
 }
 
 export default App;
