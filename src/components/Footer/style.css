@@ -2,13 +2,13 @@
 	flex-shrink: 0;
 	margin-top: 100px;
 	background-color: white;
-	color: rgb(55, 55, 55);
+	color: rgb(40, 40, 40);
 	font-size: 17px;
 	border-top: 2px #aacc00 solid;
+	font-size: 15px;
 }
 
 .custom-style {
-	color: #aacc00;
+	color: #55a630;
 	font-weight: bold;
-	font-size: 10px;
 }
