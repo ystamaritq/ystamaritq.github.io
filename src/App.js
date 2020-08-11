@@ -1,8 +1,20 @@
 import React from "react";
-import NavBar from "./components/NavBar";
+import NavigationBar from "./components/NavigationBar";
+import Footer from "./components/Footer";
+import About from "./views/About";
+// import Contact from "./views/Contact";
+import Portfolio from "./views/Portfolio";
 
 function App() {
-	return <NavBar />;
+	return (
+		<div>
+			<NavigationBar />
+			<About />
+			<Portfolio />
+			{/* <Contact /> */}
+			<Footer />
+		</div>
+	);
 }
 
 export default App;

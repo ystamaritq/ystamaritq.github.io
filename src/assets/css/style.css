@@ -13,7 +13,7 @@ body {
 	flex: 1 0 auto;
 }
 
-picture > img {
+.profile-picture {
 	width: 300px;
 	height: 300px;
 }
@@ -23,14 +23,6 @@ picture > img {
 	bottom: 80px;
 	left: 0;
 	right: 0;
-}
-
-footer {
-	flex-shrink: 0;
-	margin-top: 100px;
-	background-color: #cdc6ae;
-	color: #432c23;
-	font-size: 17px;
 }
 
 .color-custom {
