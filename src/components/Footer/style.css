@@ -1,13 +1,14 @@
 .footer {
 	flex-shrink: 0;
 	margin-top: 100px;
-	background-color: whitesmoke;
+	background-color: white;
 	color: rgb(55, 55, 55);
 	font-size: 17px;
-	border-top: 2px #9bc53d solid;
+	border-top: 2px #aacc00 solid;
 }
 
 .custom-style {
-	color: rgb(125, 182, 40);
+	color: #aacc00;
 	font-weight: bold;
+	font-size: 10px;
 }
