@@ -1,6 +1,6 @@
 .custom-style-nav {
 	background-color: white;
-	border-bottom: rgb(149, 193, 62) 2px solid;
+	border-bottom: #9bc53d 2px solid;
 }
 
 .custom-img {
@@ -13,5 +13,5 @@
 }
 
 .hover-color:hover {
-	color: yellowgreen !important;
+	color: #9bc53d !important;
 }
