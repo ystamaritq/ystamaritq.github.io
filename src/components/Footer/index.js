@@ -4,7 +4,7 @@ import "./style.css";
 const Footer = () => {
 	return (
 		<div className="text-center p-4 container-fluid footer">
-			Copyright &copy; 2020
+			Yadira's Portfolio <span className="custom-style">&copy;</span> 2020
 		</div>
 	);
 };
