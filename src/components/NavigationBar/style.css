@@ -1,0 +1,17 @@
+.custom-style-nav {
+	background-color: white;
+	border-bottom: rgb(149, 193, 62) 2px solid;
+}
+
+.custom-img {
+	height: 97px;
+}
+
+.color-link {
+	color: rgb(55, 55, 55);
+	font-size: 18px;
+}
+
+.hover-color:hover {
+	color: yellowgreen !important;
+}

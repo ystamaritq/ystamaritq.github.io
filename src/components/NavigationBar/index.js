@@ -5,16 +5,16 @@ import logo from "./logo.png";
 
 const NavigationBar = () => {
 	return (
-		<Navbar bg="light" shadow="lg" expand="lg">
+		<Navbar shadow="lg" expand="lg" className="custom-style-nav py-0">
 			<Navbar.Brand href="/">
 				<Image src={logo} className="custom-img" />
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls="navbar-nav" />
 			<Navbar.Collapse>
 				<Nav className="ml-auto color-link">
-					<Nav.Link href="#features">About</Nav.Link>
-					<Nav.Link href="#pricing">Portfolio</Nav.Link>
-					<Nav.Link href="#features">Contact</Nav.Link>
+					<Nav.Link className="hover-color">About</Nav.Link>
+					<Nav.Link className="hover-color">Portfolio</Nav.Link>
+					<Nav.Link className="hover-color">Contact</Nav.Link>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
