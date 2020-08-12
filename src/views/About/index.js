@@ -15,18 +15,18 @@ import { Container, Col, Row } from "react-bootstrap";
 
 const About = () => {
 	return (
-		<Container fluid className="mt-5">
-			<MDBRow className="justify-content-center">
+		<Container fluid className="p-5">
+			<MDBRow className="d-flex justify-content-center flex-wrap flex-row">
 				<MDBCol className="col-lg-8 col-md-6 col-sm-12">
 					<MDBCard className="bg-light">
 						<MDBCardImage
-							hover
-							overlay="white-light"
-							className="card-img-top rounded-circle z-depth-2 img-fluid col-sm-12 p-5 my-5 shadow"
+							className="mb-0 py-2 rounded-circle z-depth-1 img-fluid col-sm-12 mx-auto d-lg-flex"
 							src={pic}
+							md="4"
 							alt="me"
+							style={{ width: "22em" }}
 						/>
-
+						<hr className="mt-0" />
 						<MDBCardBody cascade className="text-center">
 							<MDBCardTitle className="card-title mb-4">
 								<strong>About Me</strong>
@@ -66,6 +66,7 @@ const About = () => {
 									floating
 									size="lg"
 									className="mx-1 mb-0 btn-git"
+									href=""
 								>
 									<MDBIcon fab icon="github" />
 								</MDBBtn>
