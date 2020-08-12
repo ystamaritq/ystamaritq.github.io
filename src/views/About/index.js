@@ -1,111 +1,100 @@
 import React from "react";
+import {
+	MDBBtn,
+	MDBCard,
+	MDBCardBody,
+	MDBCardImage,
+	MDBCardTitle,
+	MDBCardText,
+	MDBRow,
+	MDBCol,
+	MDBIcon,
+} from "mdbreact";
+import pic from "./imgs/yady.png";
+import { Container, Col, Row } from "react-bootstrap";
 
-function About() {
+const About = () => {
 	return (
-		<div className="container main-content mt-5 pb-4">
-			<div className="row mt-5">
-				<div className="card shadow-lg mt-5 pb-4 col-xs-6 col-sm-12">
-					<div className="card-header color-custom-text font-weight-bolder py-4 mx-4 mt-4">
-						<h3 className="text-shadow text-center">About me</h3>
-					</div>
+		<Container fluid className="mt-5">
+			<MDBRow className="justify-content-center">
+				<MDBCol className="col-lg-8 col-md-6 col-sm-12">
+					<MDBCard className="bg-light">
+						<MDBCardImage
+							hover
+							overlay="white-light"
+							className="card-img-top rounded-circle z-depth-2 img-fluid col-sm-12 p-5 my-5 shadow"
+							src={pic}
+							alt="me"
+						/>
 
-					<div className="card-body p-4">
-						<div>
-							<img
-								className="profile-picture mb-3 mr-5 mt-4 float-left rounded shadow img-thumbnail"
-								src="../../src/assets/imgs/yady.png"
-								alt="yadira image"
-							/>
-						</div>
+						<MDBCardBody cascade className="text-center">
+							<MDBCardTitle className="card-title mb-4">
+								<strong>About Me</strong>
+							</MDBCardTitle>
 
-						<div className="card-text text-justify mt-4">
-							<p className="mb-2">
+							<p className="text-uppercase text-secondary mb-3 font-weight-bold">
+								Full Stack Developer
+							</p>
+
+							<MDBCardText className="text-justify">
 								My name is Yadira Tamarit. I’m originally from Cuba. I’m a mom
 								of two wonderful boys.I have a Bachelor Degree in Computer
 								Science. I am currently enrolled in a UT Coding Bootcamp(The
 								University of Texas at Austin) at Full Stack Developer course in
 								order to learn all new technologies and continue growing my
 								career.
-							</p>
-							<p className="mb-2">
+							</MDBCardText>
+							<MDBCardText className="text-justify">
 								I love mathematics for that reason I choose computer science as
 								a career. Professionally, I have always liked to challenge
 								myself by never giving up on any difficult task. I also consider
 								myself a team player, able to collaborate and help others. I'm
 								dedicated, hard-worker, highly organized and able to work under
-								pressure. I love studying and I’m open to learn when is need it.
-							</p>
+								pressure.
+							</MDBCardText>
+							<MDBCardText className="text-justify">
+								I love studying and I’m open to learn when is need it. I studied
+								Computer Sciences in (Universidad de las Ciencias Informaticas)
+								located in Havana, Cuba from (2003 - 2008).For more information
+								about my professional career, please reference the provided
+								links below:
+							</MDBCardText>
 
-							<p className="mb-2">
-								I studied Computer Sciences in (Universidad de las Ciencias
-								Informaticas) located in Havana, Cuba from (2003 - 2008).For
-								more information about my professional career, please reference
-								the provided
-								<span className="font-italic">links</span>
-								below:{" "}
-								<span className="color-custom-text">
-									|<i className="fab fa-linkedin"></i>LinkedIn|
-									<i className=" fab fa-github"></i>GitHub|
-									<i className="fas fa-envelope"></i>Email|
-									<i className="fas fa-file"></i>Resume|
-								</span>
-							</p>
-						</div>
-
-						<dl className="mt-4 d-flex justify-content-center">
-							<dt className="mb-2 mr-2">
-								<a
-									href="https://www.linkedin.com/in/yadiratamarit/"
-									target="_blank"
-									className="icons-color"
+							<MDBCol md="12" className="d-flex justify-content-center">
+								<MDBBtn
+									tag="a"
+									floating
+									size="lg"
+									className="mx-1 mb-0 btn-git"
 								>
-									<span>
-										<i className="fab fa-linkedin fa-2x"></i>
-									</span>
-								</a>
-							</dt>
-							<td></td>
-							<dt className="mb-2 mr-2">
-								<a
-									href="https://github.com/ystamaritq"
-									target="_blank"
-									className="icons-color"
+									<MDBIcon fab icon="github" />
+								</MDBBtn>
+								<MDBBtn tag="a" floating size="lg" className="mx-1 mb-0 btn-li">
+									<MDBIcon fab icon="linkedin-in" />
+								</MDBBtn>
+								<MDBBtn
+									tag="a"
+									floating
+									size="lg"
+									className="mx-1 mb-0 btn-email"
 								>
-									<span>
-										<i className=" fab fa-github fa-2x"></i>
-									</span>
-								</a>
-							</dt>
-
-							<dt className="mb-2 mr-2">
-								<a
-									href="mailto:ystamaritq@gmail.com"
-									target="_blank"
-									className="icons-color"
+									<MDBIcon icon="envelope" />
+								</MDBBtn>
+								<MDBBtn
+									tag="a"
+									floating
+									size="lg"
+									className="mx-1 mb-0 btn-email"
 								>
-									<span>
-										<i className="fas fa-envelope fa-2x"></i>
-									</span>
-								</a>
-							</dt>
-
-							<dt>
-								<a
-									href="https://drive.google.com/file/d/1WcYvlFhNcF9DI-MEwoAOi8kSBUl4Abqt/view?usp=sharing"
-									target="_blank"
-									className="icons-color"
-								>
-									<span>
-										<i className="fas fa-file fa-2x"></i>
-									</span>
-								</a>
-							</dt>
-						</dl>
-					</div>
-				</div>
-			</div>
-		</div>
+									<MDBIcon icon="file" />
+								</MDBBtn>
+							</MDBCol>
+						</MDBCardBody>
+					</MDBCard>
+				</MDBCol>
+			</MDBRow>
+		</Container>
 	);
-}
+};
 
 export default About;

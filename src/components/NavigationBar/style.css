@@ -1,6 +1,6 @@
 .custom-style-nav {
 	background-color: white;
-	border-bottom: #9bc53d 2px solid;
+	border-bottom: #e6626d 2px solid;
 }
 
 .custom-img {
@@ -8,10 +8,10 @@
 }
 
 .color-link {
-	color: rgb(55, 55, 55);
+	color: #1d3557;
 	font-size: 18px;
 }
 
 .hover-color:hover {
-	color: #9bc53d !important;
+	color: #e6626d !important;
 }

@@ -1,20 +1,21 @@
 import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavigationBar from "./components/NavigationBar";
 import Footer from "./components/Footer";
 import About from "./views/About";
-// import Contact from "./views/Contact";
 import Portfolio from "./views/Portfolio";
+// import Contact from "./views/Contact";
 
-function App() {
+const App = () => {
 	return (
-		<div>
+		<Router>
 			<NavigationBar />
-			<About />
-			<Portfolio />
-			{/* <Contact /> */}
+			<Route exact path="/" component={About} />
+			<Route exact path="/" component={Portfolio} />
+			{/* <Route exact path="/" component={Contact} /> */}
 			<Footer />
-		</div>
+		</Router>
 	);
-}
+};
 
 export default App;

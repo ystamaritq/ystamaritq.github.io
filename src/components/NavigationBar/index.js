@@ -12,9 +12,15 @@ const NavigationBar = () => {
 			<Navbar.Toggle aria-controls="navbar-nav" />
 			<Navbar.Collapse>
 				<Nav className="ml-auto color-link">
-					<Nav.Link className="hover-color">About</Nav.Link>
-					<Nav.Link className="hover-color">Portfolio</Nav.Link>
-					<Nav.Link className="hover-color">Contact</Nav.Link>
+					<Nav.Link className="hover-color" href="/">
+						About
+					</Nav.Link>
+					<Nav.Link className="hover-color" href="/portfolio">
+						Portfolio
+					</Nav.Link>
+					<Nav.Link className="hover-color" href="/contact">
+						Contact
+					</Nav.Link>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
