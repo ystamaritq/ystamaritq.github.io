@@ -1,4 +1,7 @@
-.bg-custom {
-	box-shadow: 0 17px 18px 0 rgba(0, 0, 0, 0.2), 0 9px 20px 0 rgba(0, 0, 0, 0.19) !important;
-	background-color: yellow !important;
+.bg-border {
+	border: rgb(138, 84, 84) 2px solid !important;
+}
+
+.custom-p-color {
+	font-size: 14px;
 }
