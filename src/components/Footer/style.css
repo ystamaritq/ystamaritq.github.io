@@ -1,0 +1,14 @@
+.footer {
+	flex-shrink: 0;
+	margin-top: 100px;
+	background-color: white;
+	color: rgb(40, 40, 40);
+	font-size: 17px;
+	border-top: 2px #e63946 solid;
+	font-size: 15px;
+}
+
+.custom-style {
+	color: #e63946;
+	font-weight: bold;
+}

@@ -1,0 +1,17 @@
+.custom-style-nav {
+	background-color: white;
+	border-bottom: #e6626d 2px solid;
+}
+
+.custom-img {
+	height: 97px;
+}
+
+.color-link {
+	color: #1d3557;
+	font-size: 18px;
+}
+
+.hover-color:hover {
+	color: #e6626d !important;
+}

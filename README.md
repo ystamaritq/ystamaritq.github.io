@@ -1,6 +1,6 @@
 # Yadira's Portfolio
 
-This project hosts the source code for my Portfolio website.
+This project hosts the source code for my React Portfolio website.
 
 ## Installing / Getting Started
 
@@ -25,7 +25,6 @@ Below is a summary of the key files for this project and their purpose:
 - **contact.html** contact html page
 - **assets** all images and css used by the website
 - **/assets/css/style.css** custom css stylesheet
-- **/assets/css/reset.css** reset css stylesheet
 - **/assets/images** all images used by the website
 - **/assets/css** all css used by the website
 
